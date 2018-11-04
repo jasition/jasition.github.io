@@ -56,7 +56,7 @@ Now you should understand why a test method name like *testThisMethod* means abs
 
 If you are going to buy a chair for yourself, you want to know this chair more. You may want to know if the chair
 
-* is wide enough for your
+* is wide enough for you
 * can support your body weight
 * is comfortable to sit on
 * can last for years
@@ -64,7 +64,7 @@ If you are going to buy a chair for yourself, you want to know this chair more. 
 
 then they all get personal. And they should all be translated to your test cases. 
 
-* (edge case) is wide enough for your, with your hip width as input parameter 
+* (edge case) is wide enough for you, with your hip width as input parameter 
 * (edge case) can support your body weight, with your body weight as input parameter
 * (usability) is comfortable to sit on
 * (load test) can last for years
