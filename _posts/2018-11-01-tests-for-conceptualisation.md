@@ -7,6 +7,7 @@ categories: posts
 ---
 
 ##Should I even bother?
+
 *"I wrote tests for each method", "My code coverage is 100%", "All my tests passed"* - So why should I even bother? It does not matter which level you are testing in the [Testing Pyramid](http://www.duncannisbet.co.uk/test-automation-basics-levels-pyramids-quadrants), you probably will have heard these *evidences* that attempted to prove they were good tests. 
 
 What makes a test good though? A test can only be good if both the authors and the readers agree. You probably realise by now that those *evidences* mentioned above all came from the authors only. How do we, as readers, determine whether a test is good, given we did not know what it tests? 
@@ -22,6 +23,7 @@ Good tests should be able to give readers the answers, without looking at the so
 Tests are everything we could understand of a function from an external point of view. The test suite is the user manual. Tests define the function under test.  
 
 ##How does a test defines a Java class under test?
+
 This question is similar to *"What defines a chair?"*. You could probably come up with these definitions:
 
 * Has 4 legs typically
@@ -51,6 +53,7 @@ Now you should understand why a test method name like *testThisMethod* means abs
 * given-when-then : reactive behaviours based on parameters and/or states and/or pre-conditions.
 
 ##Getting personal
+
 If you are going to buy a chair for yourself, you want to know this chair more. You may want to know if the chair
 
 * is wide enough for me
@@ -70,6 +73,7 @@ then they all get personal. And they should all be translated to your test cases
 You know this chair is good enough for your money if **all tests have passed** and **the test suite has good coverage**. Why would software be any different?
 
 ##Excuse me, usability? I am testing my Java class only
+
 Yes, I hear you. Usability does not just mean Graphical User Interface. If you want me to use your Java class, I need to know how easy it is for me to use it in my code. There is no better way to show me than demonstrating it in your test cases. 
 
 This is the cliché of *"Eat your own dog food"* that if your test cases use your own class in an awkward way, what chance do the users have?
@@ -109,7 +113,8 @@ Example 2:
 
 The usability test is sometimes subjective and it is not easy to define criteria that are repeatable and reliable. There are experiment methodologies in Psychology to help with it (e.g. short-term memory, motor memory tests), but unfortunately it cannot not automated yet, as it involve reactions from human.  
 
-##Tests as conceptualisation
+##Write tests for conceptualisation
+
 Tests could allow the readers to conceptualise the function under test. A good test suite should be able to
 
 * Define the properties
