@@ -1,3 +1,4 @@
-name: Flex
-markdown: redcarpet
+name: Strictly Programming
+markdown: karmdown
+url: "http://jasition.github.io/"
 highlighter: rouge
