@@ -1,4 +1,4 @@
 name: Strictly Programming
-markdown: karmdown
+markdown: kramdown
 url: "http://jasition.github.io/"
 highlighter: rouge
