@@ -44,13 +44,13 @@ public class ChairTest {
 }
 ```
 
-Every test method is a definition of the class under test, and the test names are plain English that everyone understands. It is almost a direct translation.
+Every test method is a definition of the class under test, and the test names are in plain English that everyone understands. It is almost a direct translation.
 
 Now you should understand why a test method name like *testThisMethod* means absolutely nothing. There are some conventions that are commonly used:
 
 * adjective : properties, attributes, and immutable behaviours.
-* when-then : reactive behaviours based on parameters and/or states.
-* given-when-then : reactive behaviours based on parameters and/or states and/or pre-conditions.
+* when-then : reactive behaviours based on parameters and/or initial states.
+* given-when-then : reactive behaviours based on parameters and/or given states and/or pre-conditions.
 
 ## Getting personal
 
