@@ -187,7 +187,7 @@ Are we still missing something? It seems going well so far!
 
 There is one option that was not considered. Is the immutable object is viable option?
 
-Certainly immutable objects can be shared in multiple threads without even needing a lock. If each state has version then the incremental updates can be enforced too. 
+Certainly immutable objects can be shared in multiple threads without even needing a lock. If each instance has a version then the incremental updates can be enforced too. 
 
 At the end of the day, the immutable objects need a repository so all threads can get a up-to-date version at the time of request. That funny enough, implies the repository to look up the Aggregate would face the read-write multi-threaded problem we just mentioned. 
 
@@ -195,7 +195,7 @@ What if we don't? Then would mean the Aggregate will branch out for each thread,
 
 #### Immutability
 
-The main principle is that everything referenced by an immutable object should be immutable too, vertically deep to theoretically infinite. For example, an immutable object should never have a reference to a `java.util.Date`since it is immutable.
+The main principle is that everything referenced by an immutable object should be immutable too, vertically deep to theoretically infinite. For example, an immutable object should never have a reference to a `java.util.Date` since it is mutable.
 
 There are a number of ways to implement immutable objects:
 
