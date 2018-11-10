@@ -110,6 +110,7 @@ Example 2:
        )
    }
 ``` 
+This can be achieved by using a strict Test-driven development (TDD) approach. Firstly we write the test case even before the actual class or the skeleton of it. Obviously you will see a lot of compliation errors, but the point here is to drive a more fluent and usable API from the user's perspectives. IDEs have the fix-me feature that helps us to create classes and methods on the fly. This will also naturally satisfy the Interface Segregation Principle from [Robert C. Martin](http://blog.cleancoder.com/) that *"Clients should not be forced to depend upon interfaces that they do not use.”*, as this approach is by definition tailer-made for the clients to use.
 
 The usability test is sometimes subjective and it is not easy to define criteria that are repeatable and reliable. There are experiment methodologies in Psychology to help with it (e.g. short-term memory, motor memory tests), but unfortunately it cannot not automated yet, as it involve reactions from human.  
 
