@@ -6,6 +6,9 @@ date:   2018-11-03 12:00:00
 permalink: /about/
 ---
 
+![Tango](/images/tango.jpg)
+
+
 My day job is a Technical Lead in a Financial Service company. I developed 3 Financial Exchange Systems with the team in the last 10 years.
 
 My first degree was Cognitive Science, which is an interdisciplinary, scientific study of the mind and its processes. It has embraced the studies of philosophy, psychology, neuroscience, linguistics, anthropology, and artificial intelligence in pursue of understanding how human mind works.
@@ -42,8 +45,10 @@ To eliminate my self-doubt of my knowledge coverage in Computer Science, I compl
 * Cucumber, Mockito, AssertionJ, Make-it-easy, JUnit
 * Performance Tuning, JMH, YourKit
 * Disruptor
-* Confinity (formerly IBM ) Low-latency messaging (LLM)
-* Reuters Foundation API (RFA)
+* Confinity (formerly IBM ) Low-latency messaging (LLM), AMQ, JMS
+* Reuters Foundation API (RFA), Elektron API
 * QuickfixJ, CameronFIX
 * Oracle, PL/SQL, InfluxDB
 * Bash scripting
+
+I am a social tango dancer and a yogi.
