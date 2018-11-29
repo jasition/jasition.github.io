@@ -13,7 +13,7 @@ My day job is a Technical Lead in a Financial Service company. I developed 3 Fin
 
 My first degree was Cognitive Science, which is an interdisciplinary, scientific study of the mind and its processes. It has embraced the studies of philosophy, psychology, neuroscience, linguistics, anthropology, and artificial intelligence in pursue of understanding how human mind works.
 
-As artificial intelligence study required simulation of human behaviours with computer programs, I started learning programming languages seriously, enrolled myself in the same class with other Computer Science and Engineering students. From Logo, Basic, LISP, C++ to finally Java, I started my self-study of programming and started developing software in a part-time job.   
+As artificial intelligence study required simulation of human behaviours with computer programs, I started learning programming languages seriously, enrolled in the same class with  Computer Science and Engineering students. From Logo, Basic, LISP, C++ to finally Java, I started my self-study of programming and started developing software in a part-time job.   
 
 Due to my education background, I paid attention to the human factors in software engineering and how psychology could help in development process and engineering culture. Also with a bit of aid from Linguistics, I kept borrowing concepts of syntax and semantics to my day job in understanding multiple layers of meanings and concepts of software design and programming techniques.
 
@@ -39,7 +39,7 @@ To eliminate my self-doubt of my knowledge coverage in Computer Science, I compl
 * Scrum (as Scrum Master)
 
 ## Skills
-* Core Java 8+
+* Core Java 8+, currently learning Kotlin
 * Vavr, Lombok, Guava, Immutables.io
 * Spring Boot, Spring Frameworks
 * Cucumber, Mockito, AssertionJ, Make-it-easy, JUnit
