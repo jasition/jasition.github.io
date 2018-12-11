@@ -235,7 +235,7 @@ I would like to reference to this amazing picture of programming evolution from 
 
 The programming paradigm has evolved but we still have proportions of each previous paradigm in our code and design.
 
-Combined with the SOLID Principles and the Hexagonal Architecture, Functional Programming is stronger than ever. And I hope instead of debating whether Object-oriented or Functional Programming is better, we should make use of both to get the best values from there when it is appropriate.
+Combined with the SOLID Principles and the Hexagonal Architecture, Functional Programming is stronger than ever. And I hope instead of debating whether Object-oriented or Functional Programming is better, we should make use of both to get the best values from them when it is appropriate.
 
 To feel the true power of the Trinity (SOLID, Hexagonal, Functional), I would recommend anyone to try to solve a problem (e.g. in [HackRank](https://www.hackerrank.com/) or [Codility](https://app.codility.com/free-trial/?utm_campaign=google-brand&utm_medium=cpc&utm_source=google&utm_content=free-trial)) using these three practices together. Then compare the ease of unit testing, number of lines in a file, separation of concern, ease of extension, readiness for evolution, to your original habitual approach.
 
