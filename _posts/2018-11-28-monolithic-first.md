@@ -57,7 +57,7 @@ For example, given an application provides the following two operations:
 | Recording   | 20 per sec |    2KB   |   10 ms   |
 | Search      | 5 per day  |    200KB |   2 secs  |
 
-In this example, the recording operation requires higher throughput and lower latency, but the data for each operation are smaller. On the contrary, the search operation only run five times a day and can take 2 seconds for large data size. If we optimise the recording operation by appending the records in a journal, it would make the search inefficient for the full journal scan; If we optimise the search operation by indexing the data while recording, then each recording will involve computation which lengthens the latency.
+In this example, the recording operation requires higher throughput and lower latency, but the data for each operation are smaller. On the contrary, the search operation only run five times a day and can take 2 seconds for large data size. If we optimise the recording operation by appending the records in a journal, it would make the search inefficient for the full journal scan; If we optimise the search operation by indexing the data while recording, then each recording will involve computation which increases the latency.
 
 For the sake of simplicity here, we could divide this application into two :
 * Journaller : write the transactions in a journal (e.g. a file) as quickly as it can
