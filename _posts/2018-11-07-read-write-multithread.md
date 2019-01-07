@@ -169,16 +169,20 @@ If email is disabled, the operation ends immediately. Otherwise, write lock is a
 Due to the nature of the linear sequence of incremental updates, there is not much you could do to optimise the write operation. However, if the read would take a longer time to finish (e.g. report generation), then it is preferred not to make a long queues for the writing. Also since read operation is infrequent, we could consider making an immutable copy of the Aggregate for the lengthy infrequent read operation, given if the copy operation is not more time-consuming than the read operation of the Aggregate. For example: 
 
 ```java
-public void generateReport() {
+public HistoryImmutable getHistoryImmutable() {
     try {
        lock.readLock().lock();
-       History copy = new HistoryImmutable(this.history);
-       lock.readLock().unlock();
-       // generate report from copy
+       return new HistoryImmutable(this.history);
     } finally {
        lock.readLock().unlock(); 
     }
 }
+
+public void generateReport() {
+    HistoryImmutable history = getHistoryImmutable()
+    // generate report from copy
+}
+
 ```
 
 ### An alternative approach I prefer

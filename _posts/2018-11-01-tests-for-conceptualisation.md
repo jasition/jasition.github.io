@@ -78,7 +78,7 @@ Yes, I hear you. Usability does not just mean Graphical User Interface. If you w
 
 This is the cliché of *"Eat your own dog food"* that if your test cases use your own class in an awkward way, what chance do the users have?
 
-Your test cases are the opportunities to make your API shine. It demonstrates how fluent and how usable is your API. **Your test suite is a user manual and it put your API on show.**
+Your test cases are the opportunities to make your API shine. It demonstrates how fluent and how usable is your API. **Your test suite is a user manual and it puts your API on show.**
 
 Here are two examples of test cases that verify the same behaviour, but the latter has considered the usability and demonstrated it in the test case. 
 
