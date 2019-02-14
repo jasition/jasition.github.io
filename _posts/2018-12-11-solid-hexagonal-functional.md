@@ -217,7 +217,7 @@ Shifting the paradigm to Functional Programming does not mean the end of Object-
 Object-oriented programming still has its value even if Functional Programming is used as the major paradigm. Here is a brief explanation.
 
 ## Inheritance of Immutable states
-Data structures are great showcases of encapsulation. If you were to implement a Hashmap, you still need to protect data integrity protection that no external code can hack and break the correctness. The other reason is noise reduction that you only need to expose what is needed for the client, and therefore making your data structure neat and clean. Also modifying code internal does not affect the client, and thus lower the risk.
+Data structures are great showcases of encapsulation. If you were to implement a Hashmap, you still need to protect data integrity protection that no external code can hack and break the correctness. The other reason is noise reduction that you only need to expose what is needed for the client, and therefore making your data structure neat and clean. Also modifying internal structures does not affect the client, and thus lower the risk.
 
 Inheritance of immutable states is certainly a valid usage, given the subclass can be use as the equivalence of its parent class (Liskov Substitution). However, most programmers would choose [Composition over Inheritance](https://proandroiddev.com/composition-over-inheritance-in-kotlin-way-fe341159bf1c) these days if possible. 
 
