@@ -9,7 +9,7 @@ permalink: /about/
 ![Tango](/images/tango.jpg)
 
 
-My day job is a Technical Lead in a Financial Service company. I developed 3 Financial Exchange Systems with the team in the last 10 years.
+My day job is a Technical Lead in a Digital bank. I developed 3 Financial Exchange Systems with the team in the last 10 years.
 
 My first degree was Cognitive Science, which is an interdisciplinary, scientific study of the mind and its processes. It has embraced the studies of philosophy, psychology, neuroscience, linguistics, anthropology, and artificial intelligence in pursue of understanding how human mind works.
 
