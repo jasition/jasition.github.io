@@ -186,7 +186,7 @@ Please note that the "Event Store" was drawn independently for each domain to in
 
 # Recommendations
 
-I strongly recommended applying Functional Programming, SOLID Principles and Hexagonal Architecture in this combination to ensure the deterministic behaviours and consistency. Also I did not abandoning Object-oriented programming (OOP) by using Functional programming (FP). I have another article [here](../../../2018/12/11/solid-hexagonal-functional.md) to go into the details.
+I strongly recommended applying Functional Programming, SOLID Principles and Hexagonal Architecture in this combination to ensure the deterministic behaviours and consistency. Also I did not abandoning Object-oriented programming (OOP) by using Functional programming (FP). I have another article [here](../../../2018/12/11/solid-hexagonal-functional.html) to go into the details.
 
 The bounded context must be sensibly defined before you apply this combination. Each domain should apply its application semantics independently.
 
