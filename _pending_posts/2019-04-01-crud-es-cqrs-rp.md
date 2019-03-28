@@ -53,7 +53,7 @@ In one sentence, CRUD is the semantics of "What is the current state?".
 On the other hand, Event Sourcing sees the world has an incremental sequence of events that shapes the state of the world continuously. There are numerous versions of the state of resource, and applying all events up to the latest event equals to the current state.
 
 ## History and Traceability
-All events are kept forever and you can go back in time to see a historical state. The resource can still be keyed, and if it does, each event only concerns one aggregate root, and events of that aggregate root becomes effectively the stream of events. Creation is equivalent to the start of stream; Update is just an event in the stream; Deletion is the end of stream; and Read is interpretation of events while traversing of the stream.
+All events are kept forever and you can go back in time to see a historical state. The aggregate root can still be keyed, and if it does, each event only concerns one aggregate root, and events of that aggregate root becomes effectively the stream of events. Creation is equivalent to the start of stream; Update is just an event in the stream; Deletion is the end of stream; and Read is interpretation of events while traversing of the stream.
 
 Practically the program keeps the latest state so that it could compute the next event and next state faster. It can be described as:
 
@@ -171,7 +171,7 @@ So we are almost here. How about putting them together?
 * Pub/sub is already one of the implementation
 
 # Recommendations
-* Apply Functional Programming, SOLID Principles and Hexagonal Architecture to ensure the deterministic behaviours and consistency. Also I did not abandoning Object-oriented programming (OOP). I have another article [here](2018-12-11-solid-hexagonal-functional.md) to go into the details.
+* Apply Functional Programming, SOLID Principles and Hexagonal Architecture to ensure the deterministic behaviours and consistency. Also I did not abandoning Object-oriented programming (OOP). I have another article [here](../_posts/2018-12-11-solid-hexagonal-functional.md) to go into the details.
 * Define your bounded context sensibly before you apply this combination. Each domain should apply its application semantics independently.
 * These application semantics are agnostic to any library or technology. Using a library for CQRS does not migrate your application semantics automatically. Application Semantics is the meaning you make out of the design.
  
