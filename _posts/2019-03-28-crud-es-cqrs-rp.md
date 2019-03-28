@@ -7,6 +7,7 @@ categories: posts
 ---
 
 # Demigods and the almighty
+
 To the software programs, we the programmers are the demigods, nearly the almighty. We decided how the little world inside a program worked. We made rules and we controlled how things were transformed in this program world.
 
 However, we still relied on the programming language, the operating system, cables, chips, and electronics behind the scene. Therefore we are quite divine, but not almighty.
@@ -14,6 +15,7 @@ However, we still relied on the programming language, the operating system, cabl
 Without the ability to defy the law of physics, we have a lot of leeways in a program to navigate in order to automate processes and solve problems.
 
 # Let's talk about application semantics
+
 We definitely have the power to define the meanings of data structures and functions. Here we do not necessarily refer to the business meaning of them. It can do, but not under of the scope of the discussion here. We could define the functional meaning of different constructs or syntax  within a program. A fancy term is the *"Application Semantics"*.  
 
 ## A simple example
@@ -26,6 +28,7 @@ Those HTTP status codes, request body and response body are the syntactic constr
 Let's look at some of them now.
 
 # Create, Read, Update, Delete (CRUD)
+
 This is the classic Application Semantics that divide operations into four categories.
 
 | Operation  | SQL Command  | REST  |  
@@ -50,6 +53,7 @@ In one sentence, CRUD is the semantics of "What is the current state?".
 * Current state of the world is all that matters.
 
 # Event Sourcing (ES)
+
 On the other hand, Event Sourcing sees the world has an incremental sequence of events that shapes the state of the world continuously. There are numerous versions of the state of resource, and applying all events up to the latest event equals to the current state.
 
 ## History and Traceability
@@ -76,6 +80,7 @@ In one sentence, Event Sourcing is the semantics of "How did it get to the curre
 * Event format must be backward compatible.
 
 # Command Query Responsibility Segregation (CQRS) 
+
 CQRS explicitly segregates read and write operations as "Query" and "Command" respectively. The fundamental idea is to model the domain as close as how human describes it.
 
 For example, if we were to manage each contact in our phone. There are several possible actions:
@@ -175,9 +180,10 @@ But I could easily handle in a reactive way (e.g. `do this when event A happened
 # The bigger picture
 If you put everything together, it become like this:
 
-![CQRS_ES_RP](/images/cqrs+es+rp.png)
+![CQRS_ES_RP](/images/cqrs+es+rp.png =1372x754)
 
 # Recommendations
+
 I strongly recommended applying Functional Programming, SOLID Principles and Hexagonal Architecture in this combination to ensure the deterministic behaviours and consistency. Also I did not abandoning Object-oriented programming (OOP) by using Functional programming (FP). I have another article [here](../_posts/2018/12/11/solid-hexagonal-functional.md) to go into the details.
 
 The bounded context must be sensibly defined before you apply this combination. Each domain should apply its application semantics independently.
@@ -187,4 +193,5 @@ These application semantics are agnostic to any library or technology. Using a l
 All these semantics can be applied independently, and you must have good reasons to mix any one of them together.
  
 # By the way...
+
 I have struggled for months in writing this article. The main reason was that I did not feel I learned enough to combine all these concepts together. So I went back to my personal projects to explore. Also I was in the middle of changing jobs and country of residence that did not help me concentrate on this.
