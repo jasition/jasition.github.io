@@ -180,13 +180,13 @@ But I could easily handle in a reactive way (e.g. `do this when event A happened
 # The bigger picture
 If you put everything together, it become like this:
 
-![CQRS_ES_RP](/images/cqrs+es+rp.png){:width="776px" height="1190px"}
+![CQRS_ES_RP](/images/cqrs+es+rp.png){:width="600" height="920"}
 
 Please note that the "Event Store" was drawn independently for each domain to indicate they are logically different event streams. It does not enforce the separation and you could still mix them and filter them at the observer side.
 
 # Recommendations
 
-I strongly recommended applying Functional Programming, SOLID Principles and Hexagonal Architecture in this combination to ensure the deterministic behaviours and consistency. Also I did not abandoning Object-oriented programming (OOP) by using Functional programming (FP). I have another article [here](../_posts/2018/12/11/solid-hexagonal-functional.md) to go into the details.
+I strongly recommended applying Functional Programming, SOLID Principles and Hexagonal Architecture in this combination to ensure the deterministic behaviours and consistency. Also I did not abandoning Object-oriented programming (OOP) by using Functional programming (FP). I have another article [here](../../../2018/12/11/solid-hexagonal-functional.md) to go into the details.
 
 The bounded context must be sensibly defined before you apply this combination. Each domain should apply its application semantics independently.
 
