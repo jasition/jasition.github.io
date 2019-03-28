@@ -180,7 +180,7 @@ But I could easily handle in a reactive way (e.g. `do this when event A happened
 # The bigger picture
 If you put everything together, it become like this:
 
-![CQRS_ES_RP](/images/cqrs+es+rp.png =1372x754)
+![CQRS_ES_RP](/images/cqrs+es+rp.png)
 
 # Recommendations
 
