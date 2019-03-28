@@ -231,7 +231,7 @@ One of the usual reasons function implementation may inherit another is differen
 # Summary
 I would like to reference to this amazing picture of programming evolution from the blog of ["So You Want to be a Functional Programmer"](https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-5-c70adc9cf56a) by Charles Scalfani..
 
-![Evolution](/images/evolution.png){:width="1059px" height="469px"}
+![Evolution](/images/evolution.png){:width=50% height=50%}
 
 The programming paradigm has evolved but we still have proportions of each previous paradigm in our code and design.
 
