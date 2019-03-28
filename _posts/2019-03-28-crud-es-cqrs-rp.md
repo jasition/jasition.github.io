@@ -174,13 +174,17 @@ But I could easily handle in a reactive way (e.g. `do this when event A happened
 
 # The bigger picture
 If you put everything together, it become like this:
+
 ![CQRS_ES_RP](/images/cqrs+es+rp.png)
 
 # Recommendations
-* Apply Functional Programming, SOLID Principles and Hexagonal Architecture to ensure the deterministic behaviours and consistency. Also I did not abandoning Object-oriented programming (OOP). I have another article [here](../_posts/2018/12/11/solid-hexagonal-functional.md) to go into the details.
-* Define your bounded context sensibly before you apply this combination. Each domain should apply its application semantics independently.
-* These application semantics are agnostic to any library or technology. Using a library for CQRS does not migrate your application semantics automatically. Application Semantics is the meaning you make out of the design.
-* All these semantics can be applied independently, and you must have good reasons to mix any one of them together.
+I strongly recommended applying Functional Programming, SOLID Principles and Hexagonal Architecture in this combination to ensure the deterministic behaviours and consistency. Also I did not abandoning Object-oriented programming (OOP) by using Functional programming (FP). I have another article [here](../_posts/2018/12/11/solid-hexagonal-functional.md) to go into the details.
+
+The bounded context must be sensibly defined before you apply this combination. Each domain should apply its application semantics independently.
+
+These application semantics are agnostic to any library or technology. Using a library for CQRS does not migrate your application semantics automatically. Application Semantics is the meaning you make out of the design.
+
+All these semantics can be applied independently, and you must have good reasons to mix any one of them together.
  
 # By the way...
 I have struggled for months in writing this article. The main reason was that I did not feel I learned enough to combine all these concepts together. So I went back to my personal projects to explore. Also I was in the middle of changing jobs and country of residence that did not help me concentrate on this.
