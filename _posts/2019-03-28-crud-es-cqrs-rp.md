@@ -180,7 +180,7 @@ But I could easily handle in a reactive way (e.g. `do this when event A happened
 # The bigger picture
 If you put everything together, it become like this:
 
-![CQRS_ES_RP](/images/cqrs+es+rp.png)
+![CQRS_ES_RP](/images/cqrs+es+rp.png){:height="776px" width="1190px"}
 
 Please note that the "Event Store" was drawn independently for each domain to indicate they are logically different event streams. It does not enforce the separation and you could still mix them and filter them at the observer side.
 
